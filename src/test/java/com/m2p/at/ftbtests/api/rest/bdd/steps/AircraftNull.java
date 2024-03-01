@@ -59,7 +59,7 @@ public class AircraftNull {
         throw new io.cucumber.java.PendingException();
     }
 
-    @Then("aircraft data to be manufacturer={string} and model={string} and number of seats is NULL")
+//    @Then("aircraft data to be manufacturer={string} and model={string} and number of seats is NULL")
     @Then("returned aircraft data to be manufacturer={string} and model={string} and number of seats is NULL")
     public void verifySingleAircraftData(String manufacturer, String model) {
         var lastResponse = storage.getLastApiCallSingleItemResponse();

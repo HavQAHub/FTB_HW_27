@@ -22,4 +22,4 @@ Feature: Testing FTB REST API AIRCRAFTS resource
     Given FTB is up and running and the tests are configured
     When client tries to create an Aircraft having manufacturer='Tupolev' and model='TU-1' and number of seats is NULL
     Then returned aircraft data to be manufacturer='Tupolev' and model='TU-1' and number of seats is NULL
-    Then aircraft data to be manufacturer='Tupolev' and model='TU-1' and number of seats is NULL
+    ##Then aircraft data to be manufacturer='Tupolev' and model='TU-1' and number of seats is NULL
